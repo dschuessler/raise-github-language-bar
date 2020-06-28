@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name raise-github-language-bar
+// @name Raise the Github language bar
 // @version 1.0
 // @description Raises the language bar in Github so that it is visible in the viewport without scrolling
 // @include https://github.com/*
