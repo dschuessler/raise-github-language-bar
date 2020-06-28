@@ -21,6 +21,6 @@ function reorderGridRows(grid) {
       .getElementsByTagName("h2")[0].textContent === "Languages"
   ) {
     gridRows[0].parentNode.removeChild(lastRow);
-    gridRows[0].parentNode.insertBefore(lastRow, gridRows[1]);
+    gridRows[0].parentNode.insertBefore(lastRow, gridRows[0]);
   }
 }
